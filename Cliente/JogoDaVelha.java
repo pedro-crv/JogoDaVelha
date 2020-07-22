@@ -90,11 +90,9 @@ public class JogoDaVelha extends JFrame{
                 @Override
                 public void actionPerformed(ActionEvent e) {
 					System.out.println("Action Perfomed");
-					System.out.println(pos);
 					Bloco bloco = new Bloco(jogadorVez, pos);
 					System.out.println(bloco);
 					rede.enviaClique(bloco);
-					// rede.enviaClique();
                 }
 			});
 		}
